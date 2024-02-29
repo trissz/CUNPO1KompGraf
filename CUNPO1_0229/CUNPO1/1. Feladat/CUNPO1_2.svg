@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="CUNPO1_2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.70110129"
+     inkscape:cx="191.84104"
+     inkscape:cy="552.70188"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter58"
+       x="-0.11240245"
+       y="-0.22774775"
+       width="1.5157183"
+       height="1.2961543">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         id="feFlood57" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="8.049536"
+         id="feGaussianBlur57" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="50.000000"
+         dy="-45.000000"
+         id="feOffset57" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite57" />
+      <feComposite
+         result="fbSourceGraphic"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite58" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix58" />
+      <feFlood
+         id="feFlood58"
+         result="flood"
+         in="fbSourceGraphic"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)" />
+      <feGaussianBlur
+         id="feGaussianBlur58"
+         result="blur"
+         in="fbSourceGraphic"
+         stdDeviation="8.049536" />
+      <feOffset
+         id="feOffset58"
+         result="offset"
+         in="blur"
+         dx="50.000000"
+         dy="-45.000000" />
+      <feComposite
+         id="feComposite59"
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset" />
+      <feComposite
+         id="feComposite60"
+         result="comp2"
+         operator="over"
+         in="fbSourceGraphic"
+         in2="comp1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter63"
+       x="-0.20918012"
+       y="-0.1311068"
+       width="1.4183602"
+       height="1.2622136">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur63" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Réteg 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#0000ff;stroke-width:1.42633;filter:url(#filter58)"
+       d="M 117.67201,505.63307 V 223.22024 H 289.54447 461.41692 V 505.63307 788.0459 H 289.54447 117.67201 Z"
+       id="path4"
+       transform="matrix(0.16100642,0,0,0.15117804,4.4122982,67.333521)" />
+    <g
+       id="g63"
+       transform="translate(83.401524,-101.51588)">
+      <rect
+         style="fill:#808080;stroke-width:1.54652;filter:url(#filter63)"
+         id="rect62-6"
+         width="22.946732"
+         height="36.611374"
+         x="314.12827"
+         y="-384.30533"
+         transform="matrix(0.99997301,-0.00734713,0.68451952,-0.72899453,-0.09434562,-1.1321474)"
+         ry="0" />
+      <rect
+         style="opacity:1;fill:#0000ff;stroke-width:0.264583"
+         id="rect62"
+         width="36.228714"
+         height="36.606098"
+         x="37.738243"
+         y="241.14738" />
+    </g>
+  </g>
+</svg>
