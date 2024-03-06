@@ -24,17 +24,45 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.70110129"
-     inkscape:cx="198.97268"
-     inkscape:cy="532.73329"
+     inkscape:zoom="0.99150695"
+     inkscape:cx="418.05052"
+     inkscape:cy="764.99716"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showgrid="false" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="swatch8"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch8"
+       id="linearGradient8"
+       x1="17.078381"
+       y1="253.24036"
+       x2="179.58984"
+       y2="253.24036"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.66109018,0,0,0.88255062,34.372183,14.399063)" />
+  </defs>
   <g
      inkscape:label="Réteg 1"
      inkscape:groupmode="layer"
@@ -68,22 +96,22 @@
     <ellipse
        style="fill:#001511;fill-opacity:0;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path6"
-       cx="154.47591"
-       cy="89.04274"
+       cx="165.42"
+       cy="42.247314"
        rx="13.342485"
        ry="15.210433" />
     <path
-       style="fill:#001511;fill-opacity:0;stroke:#000000;stroke-width:0.167149;stroke-opacity:1"
+       style="fill:#001511;fill-opacity:0;stroke:#000000;stroke-width:0.104394;stroke-opacity:1"
        id="path7"
        sodipodi:type="arc"
-       sodipodi:cx="90.445389"
-       sodipodi:cy="249.59035"
-       sodipodi:rx="50.13966"
-       sodipodi:ry="32.340508"
+       sodipodi:cx="49.122013"
+       sodipodi:cy="163.16975"
+       sodipodi:rx="38.283501"
+       sodipodi:ry="16.52182"
        sodipodi:start="0"
        sodipodi:end="6.2785093"
        sodipodi:arc-type="slice"
-       d="M 140.58505,249.59035 A 50.13966,32.340508 0 0 1 90.504002,281.93083 50.13966,32.340508 0 0 1 40.305866,249.66596 50.13966,32.340508 0 0 1 90.269549,217.25004 50.13966,32.340508 0 0 1 140.5845,249.43912 l -50.139111,0.15123 z" />
+       d="m 87.405514,163.16975 a 38.283501,16.52182 0 0 1 -38.238747,16.52181 38.283501,16.52182 0 0 1 -38.32815,-16.48318 38.283501,16.52182 0 0 1 38.149136,-16.56034 38.283501,16.52182 0 0 1 38.417342,16.44446 l -38.283082,0.0772 z" />
     <path
        sodipodi:type="star"
        style="fill:#001511;fill-opacity:0;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
@@ -108,7 +136,7 @@
        id="path10"
        inkscape:flatsided="false"
        sodipodi:sides="5"
-       sodipodi:cx="77.740788"
+       sodipodi:cx="77.740791"
        sodipodi:cy="163.78398"
        sodipodi:r1="72.375816"
        sodipodi:r2="20.75293"
@@ -118,7 +146,8 @@
        inkscape:randomized="0"
        d="M 126.80051,216.99491 67.502381,181.83555 42.294481,226.88563 57.408889,159.62491 6.7740464,149.57202 75.413395,143.16197 69.327242,91.898858 96.634284,155.19794 143.50768,133.5685 91.745008,179.09953 Z"
        inkscape:transform-center-x="-3.0631291"
-       inkscape:transform-center-y="-1.6640486e-06" />
+       inkscape:transform-center-y="-1.6640486e-06"
+       transform="translate(52.07878,-26.416773)" />
     <text
        xml:space="preserve"
        style="font-size:11.2889px;line-height:0;fill:#001511;fill-opacity:0;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
@@ -129,5 +158,17 @@
            style="stroke-width:0.264583">Szöveg </tspan><tspan
            style="stroke-width:0.264583"
            id="tspan11" /></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;fill:#ffffff;fill-opacity:1;stroke-width:0.264999;stroke-dasharray:none;paint-order:normal"
+       id="text5"><textPath
+         xlink:href="#rect8"
+         id="textPath8"><tspan
+           id="tspan5"
+           style="font-size:8.46667px;fill:#000000;fill-opacity:1;stroke-width:0.265">A begépelt szöveg utólagosan helyezhető az alakzatok körvonalára.</tspan></textPath></text>
+    <path
+       id="rect8"
+       style="fill:none;stroke:url(#linearGradient8);stroke-width:0.202416"
+       d="M 45.662534,219.05582 H 153.09728 v 37.68134 H 45.662534 Z" />
   </g>
 </svg>
