@@ -1,0 +1,11 @@
+body
+{
+    margin: 1em;
+}
+
+#BTCanvas
+{
+    width: 700px;
+    height: 350px;
+    border: 0.1em solid black;
+}
