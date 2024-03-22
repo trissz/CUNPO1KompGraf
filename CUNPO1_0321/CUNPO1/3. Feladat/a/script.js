@@ -8,7 +8,7 @@ function init()
     context.textAlign = "center";
     context.fillText("Programtervező informatikus 2024", canvas.width / 2, 20);
 
-    drawSemiCircle(canvas, context);
+    drawSemiCircle(context);
     drawRectangle(context);
     drawGradient(context);
     drawImg(context);
@@ -16,8 +16,8 @@ function init()
     context.imageSmoothingEnabled = false;
 }
 
-function drawSemiCircle(canvas, context)
-{   
+function drawSemiCircle(context)
+{
     context.beginPath();
     context.arc(200, 65, 30, 45, 10.8, false);
     context.closePath();
