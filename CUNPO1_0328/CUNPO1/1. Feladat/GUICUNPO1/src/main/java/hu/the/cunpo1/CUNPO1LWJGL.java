@@ -17,6 +17,11 @@ import static org.lwjgl.system.MemoryUtil.*;
 public class CUNPO1LWJGL
 {
     private long window;
+    
+    public void drawText()
+    {
+        //Searching for implementation. . . . .
+    }
 
     public void run()
     {
