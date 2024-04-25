@@ -13,7 +13,6 @@ import java.awt.event.ActionListener;
 
 public class CUNPO1Prog17 extends JFrame implements ActionListener
 {
-    public Graphics2D g2d;
     public Button drawButton = new Button("Rajzolás");
     public int frameWidth, frameHeight;
     public boolean buttonClicked = false;
@@ -42,7 +41,7 @@ public class CUNPO1Prog17 extends JFrame implements ActionListener
     {
         super.paint(g);
 
-        g2d = (Graphics2D) g;
+        Graphics2D g2d = (Graphics2D) g;
         
         int xStep = 10;
         
@@ -57,7 +56,7 @@ public class CUNPO1Prog17 extends JFrame implements ActionListener
         {
             g2d.setColor(Color.BLUE);
 
-            for (int toX = frameWidth; toX >= 0; toX -= xStep)
+            for ( int toX = frameWidth; toX >= 0; toX -= xStep )
             {
                 g2d.drawLine(frameWidth, 0, toX, frameHeight);
             }
