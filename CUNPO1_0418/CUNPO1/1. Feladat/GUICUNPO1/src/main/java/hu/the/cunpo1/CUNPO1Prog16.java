@@ -1,15 +1,13 @@
 package hu.the.cunpo1;
 
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Rectangle;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+import java.awt.Color;
 
 public class CUNPO1Prog16 extends JFrame
 {
-    Rectangle rect = new Rectangle(0, 0, 300, 250);
     int frameWidth, frameHeight;
     
     CUNPO1Prog16()
