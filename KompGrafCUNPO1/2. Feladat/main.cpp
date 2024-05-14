@@ -29,6 +29,8 @@ int main()
 {
     setlocale(LC_ALL,"");
 
+    cout << "Képfeldolgozási folyamatok megkezdése. . . . .\n\n";
+
     ifstream image_in_stream;
     ofstream image_out_stream;
 
@@ -50,12 +52,18 @@ int main()
 
     ConvolveImage("landscape", image_in_stream, image_out_stream);
 
+    /* Mûveletek */
+
     //MakeRandomImage(height, width, 255, image_out_stream);
     //AddRedFilterToImage("landscape", 100, image_in_stream, image_out_stream);
     //AddGreenFilterToImage("landscape", 100, image_in_stream, image_out_stream);
     //AddBlueFilterToImage("landscape", 100, image_in_stream, image_out_stream);
     //MakeTransition(300, 300, 20, 64, 224, 208, image_out_stream);
     MakeTransition(255, 255, 255, 10, 200, 64, 64, 224, 208, image_out_stream); //turkiz: rgb(64,224,208); pink: rgb(255,20,147)
+
+    cout << "Képfeldolgozási folyamatok sikeresen végrehajtva.\n\n";
+
+    system("pause");
 
     return 0;
 }
@@ -226,21 +234,13 @@ void ConvolveImage(string image_name, ifstream& image_in, ofstream& image_out)
 
         image_in >> type >> w >> h >> maximum_color_value_of_the_image;
 
-        cout << w << " " << h << endl;
-
-        //color image[h][w];
-
         for ( int i = 0; i < h; i ++ )
         {
             for ( int j = 0; j < w; j ++ )
             {
                 image_in >> image[i][j].r >> image[i][j].g >> image[i][j].b;
-
-                //cout << image[i][j].r << " " << image[i][j].g << " " << image[i][j].b << endl;
             }
         }
-
-        //cout << endl;
 
         float r_sum = 0, g_sum = 0, b_sum = 0;
 
@@ -255,10 +255,6 @@ void ConvolveImage(string image_name, ifstream& image_in, ofstream& image_out)
                         r_sum += image[k][l].r * mul[k - (i - n / 2)][l - (j - m / 2)];
                         g_sum += image[k][l].g * mul[k - (i - n / 2)][l - (j - m / 2)];
                         b_sum += image[k][l].b * mul[k - (i - n / 2)][l - (j - m / 2)];
-
-                        /*r_sum += image[k][l].r * 1/9;
-                        g_sum += image[k][l].g * 1/9;
-                        b_sum += image[k][l].b * 1/9;*/
                     }
                 }
 
